@@ -1,0 +1,66 @@
+@media screen and (max-width: 360px) {
+  .why-we {
+    padding-top: 50px;
+    .main-title {
+      font-size: 24px;
+      letter-spacing: 15px;
+      padding-top: 0;
+      margin-bottom: 45px;
+    }
+    .main-content {
+      margin-top: 0;
+      padding-top: 0;
+      flex-direction: column;
+      .left-box {
+        margin-right: 0;
+        margin-left: 25px;
+        .row-box {
+          margin-left: 0;
+          margin-bottom: 23px;
+          .title {
+            font-size: 12px;
+          }
+        }
+        .item {
+          .vertical-line {
+            display: none;
+          }
+        }
+      }
+      .right-box {
+        background-color: #333c48;
+        width: 310px;
+        margin: 0 auto;
+        margin-top: 30px;
+        position: relative;
+        .right-box.top-row {
+          margin-top: 0;
+          position: absolute;
+          top: 25px;
+          left: -20px;
+          z-index: 1;
+          background: transparent;
+        }
+        .bottom-row {
+          margin-top: 25px;
+          display: block;
+          .icon {
+            padding-top: 0;
+            padding-left: 25px;
+          }
+          .bottom-row.content {
+            padding-left: 25px;
+            .title {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+            .text {
+              padding-bottom: 30px;
+              padding-right: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

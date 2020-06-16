@@ -1,0 +1,12 @@
+body {
+  max-width: $grid-width-primary;
+  background: url('../img/cloud_PNG6.png') no-repeat;
+  background-color: #26292d;
+  background-position: bottom center;
+
+  .main-wrap {
+    width: $grid-width-primary;
+    max-width: $grid-width-secondary;
+    margin: 0 auto;
+  }
+}

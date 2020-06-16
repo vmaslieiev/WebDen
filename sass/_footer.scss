@@ -1,0 +1,25 @@
+footer {
+  margin-top: 43px;
+  margin-bottom: 72px;
+  .top {
+    display: flex;
+    margin-bottom: 35px;
+    .title {
+      font-family: $font-family-regNova;
+      font-size: 23px;
+      color: #fff;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-right: 45px;
+    }
+    img {
+      margin-right: 25px;
+      cursor: pointer;
+    }
+  }
+  .bottom {
+    font-family: $font-family-mariad;
+    font-size: 14px;
+    color: #727a80;
+  }
+}

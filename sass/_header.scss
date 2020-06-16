@@ -1,0 +1,91 @@
+header {
+  padding-bottom: 61px;
+  background: url('../img/Background-header.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    .nav-burger-wrap {
+      cursor: pointer;
+      .nav-burger {
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 3px;
+      }
+    }
+  }
+  .title {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: $font-family-mariad;
+    font-size: 44px;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #fff;
+    span {
+      color: #23b3fe;
+    }
+  }
+  form {
+    text-align: center;
+    .input {
+      width: 63%;
+      height: 64px;
+      margin: 0 auto;
+      border: none;
+      background: url('../img/Search\ icon.png') no-repeat;
+      background-position: 450px center;
+      border-radius: 7px;
+
+      .create {
+        outline: none;
+        background-color: rgba(88,94,103, 1);
+        padding-left: 20px;
+        color: #d2d4d6;
+        font-size: 19px;
+      }
+    }
+    input::placeholder {
+      color: #d2d4d6;
+      font-family: $font-family-gotham;
+      font-size: 17px;
+    }
+    input:focus::-webkit-input-placeholder {
+      color: transparent;
+    }
+    button {
+      width: 254px;
+      height: 64px;
+      border-radius: 30px;
+      outline: none;
+      border: none;
+      color: #fff;
+      text-transform: uppercase;
+      background-color: #23b3fe;
+      font-family: $font-family-regNova;
+      font-size: 17px;
+      font-weight: bold;
+      margin: 58px 0;
+      cursor: pointer;
+    }
+  }
+  .vertical-line {
+    margin: 0 auto;  
+    width: 2px;
+    height: 41px;
+    background: linear-gradient(to bottom, #276080 40%, #23b3fe 40%);
+  }
+  .see-more {
+    font-size: 16px;
+    font-family: $font-family-regNova;
+    color: #8a969e;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}

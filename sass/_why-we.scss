@@ -1,0 +1,105 @@
+.why-we {
+  color: #fff;
+  padding-top: 150px;
+  margin-bottom: 130px;
+  .main-title {
+    font-family: $font-family-regNova;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 32px;
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    .left-box {
+      width: 290px;
+      margin-right: 109px;
+      .row-box {
+        display: flex;
+        align-items: center;
+        margin-bottom: 33px;
+        .item {
+          display: flex;
+          align-items: center;
+          font-size: 16px;
+          color: #a8a9ab;
+          .vertical-line {
+            width: 4px;
+            height: 30px;
+            background-color: #28aff0;
+            margin-right: 17px;
+            visibility: hidden;
+          }
+        }
+        .js-active {
+          color: #28aff0;
+          cursor: pointer;
+          .vertical-line{
+            visibility: visible;
+          }
+        }
+        .horizontal-line {
+          width: 29px;
+          height: 1px;
+          background-color: #a8a9ab;
+          margin-left: 23px;
+          margin-right: 17px;
+        }
+        .title {
+          font-family: $font-family-blackNova;
+          font-size: 16px;
+          letter-spacing: 0.7px;
+          color: #a8a9ab;
+        }
+        .js-active-text {
+          color: #fff;
+        }
+      }
+    }
+    .right-box {
+      .top-row {
+        display: flex;
+        justify-content: flex-end;
+        .arrow {
+        color: #256b91;
+        cursor: pointer;
+        }
+        .left-arrow {
+          margin-right: 5px;
+        }
+        .right-arrow {
+          margin-left: 5px;
+        }
+        .page-number {
+          color: #a8a9ab;
+          font-family: $font-family-regNova;
+        }
+      }
+      .bottom-row {
+        display: flex;
+        .icon {
+          width: 70px;
+          height: 70px;
+          margin-right: 35px;
+          padding-top: 64px;
+        }
+        .content {
+          flex-direction: column;
+          .title {
+            font-family: $font-family-regNova;
+            font-size: 30px;
+            margin-bottom: 32px;
+          }
+          .text {
+            color: #a8a9ab;
+            font-family: $font-family-regNova;
+            font-size: 15px;
+            letter-spacing: 0.2px;
+          }
+        }
+      }
+    }
+  }
+}

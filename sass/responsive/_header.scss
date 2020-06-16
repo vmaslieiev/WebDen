@@ -1,0 +1,43 @@
+@media screen and (max-width: 968px) {
+  header {
+    width: $grid-width-primary;
+    .nav {
+      margin: 0 28px 0 28px;
+    }
+    .title {
+      font-size: 28px;
+      margin: 80px 50px 60px 50px;
+    }
+    form {
+      width: $grid-width-primary;
+      text-align: center;
+      .input {
+        width: 70%;
+        background-position: 445px center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    form {
+      .input {
+        width: 86%;
+        height: 40px;
+        background-position: 250px center;
+
+        .create {
+          background-color: #3f4248;
+        }
+      }
+      input::placeholder {
+        font-size: 14px;
+      }
+      button {
+        width: 305px;
+        height: 50px;
+      }
+    }
+  }
+}
